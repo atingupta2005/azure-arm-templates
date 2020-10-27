@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "Your_Name": {
+      "value": null
+    },
+    "virtualMachine_Suffix": {
+      "value": "vm1"
+    },
+    "NSG_Name_Suffix": {
+      "value": "nsg"
+    },
+    "VNET_Name_Suffix": {
+      "value": "vnet"
+    },
+    "adminUsername": {
+      "value": "atin"
+    },
+    "adminPassword": {
+      "value": "SomethingSecret@123456"
+    },
+    "vmSize": {
+      "value": "Standard_B1ms"
+    },
+    "DomainNameLabel": {
+      "value": "[concat(parameters('Your_Name'),'-',utcNow('yyyyMMdd'),'-',parameters('virtualMachine_Suffix'))]"
+    }
+  }
+}
