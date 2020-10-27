@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "Your_Name": {
-      "value": null
+      "value": "atingupta"
     },
     "virtualMachine_Suffix": {
-      "value": "vm1"
+      "value": "vm"
     },
     "NSG_Name_Suffix": {
       "value": "nsg"
@@ -18,13 +18,10 @@
       "value": "atin"
     },
     "adminPassword": {
-      "value": "SomethingSecret@123456"
+      "value": "Azure@123456"
     },
     "vmSize": {
       "value": "Standard_B1ms"
-    },
-    "DomainNameLabel": {
-      "value": "[concat(parameters('Your_Name'),'-',utcNow('yyyyMMdd'),'-',parameters('virtualMachine_Suffix'))]"
     }
   }
 }
