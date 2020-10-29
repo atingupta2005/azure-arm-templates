@@ -21,8 +21,8 @@ for($i = 1; $i -le $vmCount; $i++){
 		-ResourceGroupName $resourceGroupName `
 		-TemplateUri "https://raw.githubusercontent.com/atingupta2005/azure-arm-templates/main/virtual-machine.json" `
 		-TemplateParameterFile parameters.json `
-		-virtualMachine_Suffix "$Virtual_Machine_Suffix$i"
-		-publicIPAllocationMethod "$publicIPAllocationMethod"
+		-virtualMachine_Suffix "$Virtual_Machine_Suffix$i" `
+		-pIPAllocMethod "$publicIPAllocationMethod"
 
 	(Get-AzVm -ResourceGroupName $resourceGroupName).name
 

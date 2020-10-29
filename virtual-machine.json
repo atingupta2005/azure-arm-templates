@@ -54,7 +54,7 @@
                 "description": "Should be a unique across globe. Should start with characters. Example: vm271120-1"
             }			
         },
-        "publicIPAllocationMethod": {
+        "pIPAllocMethod": {
             "defaultValue": "Dynamic"",
             "type": "String",
         }
@@ -125,7 +125,7 @@
             },
             "properties": {
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "[parameters('publicIPAllocationMethod')]",
+                "publicIPAllocationMethod": "[parameters('pIPAllocMethod')]",
                 "idleTimeoutInMinutes": 4,
 				"dnsSettings": {
                     "DomainNameLabel": "[parameters('DomainNameLabel')]",

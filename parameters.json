@@ -23,7 +23,7 @@
     "vmSize": {
       "value": "Standard_B1s"
     },
-    "publicIPAllocationMethod": {
+    "pIPAllocMethod": {
       "value": "Dynamic"
     }
   }
