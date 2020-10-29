@@ -5,7 +5,7 @@
         "Your_Name": {
             "defaultValue": "",
             "type": "String",
-			"minLength": 3
+			"minLength": 1
         },
         "virtualMachine_Suffix": {
             "defaultValue": "vm1",
@@ -31,7 +31,7 @@
 			"minLength": 10
         },
         "vmSize": {
-            "defaultValue": "Standard_B1ms",
+            "defaultValue": "Standard_B1ls",
             "type": "String",
 			"allowedValues": [
 				"Standard_B1ls",
