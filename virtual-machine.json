@@ -56,7 +56,7 @@
         },
         "pIPAllocMethod": {
             "defaultValue": "Dynamic"",
-            "type": "String",
+            "type": "String"
         }
 		
     },
