@@ -15,13 +15,16 @@
       "value": "vnet"
     },
     "adminUsername": {
-      "value": "atin"
+      "value": "user"
     },
     "adminPassword": {
       "value": "Azure@123456"
     },
     "vmSize": {
-      "value": "Standard_B1ms"
+      "value": "Standard_B1s"
+    },
+    "publicIPAllocationMethod": {
+      "value": "Dynamic"
     }
   }
 }

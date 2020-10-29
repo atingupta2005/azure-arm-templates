@@ -31,7 +31,7 @@
 			"minLength": 10
         },
         "vmSize": {
-            "defaultValue": "Standard_B1ls",
+            "defaultValue": "Standard_B1s",
             "type": "String",
 			"allowedValues": [
 				"Standard_B1ls",
@@ -53,7 +53,12 @@
 			"metadata": {
                 "description": "Should be a unique across globe. Should start with characters. Example: vm271120-1"
             }			
+        },
+        "publicIPAllocationMethod": {
+            "defaultValue": "Dynamic"",
+            "type": "String",
         }
+		
     },
     "variables": {
 		"virtualMachine_name": "[concat(parameters('Your_Name'),'-',parameters('virtualMachine_Suffix'))]",
@@ -120,7 +125,7 @@
             },
             "properties": {
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "[parameters('publicIPAllocationMethod')]",
                 "idleTimeoutInMinutes": 4,
 				"dnsSettings": {
                     "DomainNameLabel": "[parameters('DomainNameLabel')]",
