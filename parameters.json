@@ -15,13 +15,13 @@
       "value": "vnet"
     },
     "adminUsername": {
-      "value": "user"
+      "value": "traininguser"
     },
     "adminPassword": {
-      "value": "Azure@123456"
+      "value": "SomethingSecret@123456"
     },
     "vmSize": {
-      "value": "Standard_B1s"
+      "value": "Standard_B1ls"
     },
     "pIPAllocMethod": {
       "value": "Dynamic"
