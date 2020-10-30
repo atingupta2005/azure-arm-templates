@@ -31,7 +31,7 @@
 			"minLength": 10
         },
         "vmSize": {
-            "defaultValue": "Standard_B1ls",
+            "defaultValue": "Standard_B1s",
             "type": "String",
 			"allowedValues": [
 				"Standard_B1ls",

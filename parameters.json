@@ -21,7 +21,7 @@
       "value": "SomethingSecret@123456"
     },
     "vmSize": {
-      "value": "Standard_B1ls"
+      "value": "Standard_B1s"
     },
     "pIPAllocMethod": {
       "value": "Dynamic"
