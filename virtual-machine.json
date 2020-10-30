@@ -21,7 +21,7 @@
             "type": "String"
         },
         "adminUsername": {
-            "defaultValue": "atin",
+            "defaultValue": "traininguser",
             "type": "String",
 			"minLength": 3
 		},

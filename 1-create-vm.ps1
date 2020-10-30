@@ -1,7 +1,7 @@
 # Connect to Azure with a browser sign in token
 #Connect-AzAccount
 #Get-AzSubscription
-#Get-AzSubscription -SubscriptionId "cab7799e-bdd5-4b31-a003-c56612e38f3e" -TenantId "6bb2f9af-a0af-4c32-a5ec-5f7011d37551" | Set-AzContext
+#Get-AzSubscription -SubscriptionId "83c07bcb-1ba8-4fb5-beb5-2a30c680d4fc" -TenantId "6bb2f9af-a0af-4c32-a5ec-5f7011d37551" | Set-AzContext
 
 #-------------#First Time---------------------------------
 $resourceGroupName = Read-Host -Prompt "Enter the Resource Group name (Mandatory):"
